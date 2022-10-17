@@ -1,3 +1,5 @@
+![](https://github.com/satellogic/iquaflow/blob/main/docs/source/iquaflow_logo_mini.png)
+
 # IQUAFLOW - Quality Metrics for Single Image Super Resolution
 
 Note: Use any of our [jupyter notebooks](https://github.com/dberga/iquaflow-qmr-sisr/blob/master/IQF-UseCase.ipynb) to run the use case.
