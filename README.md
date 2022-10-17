@@ -2,7 +2,7 @@
 
 # IQUAFLOW - Quality Metrics for Single Image Super Resolution
 
-Note: Use any of our [jupyter notebooks](https://github.com/dberga/iquaflow-qmr-sisr/blob/master/IQF-UseCase.ipynb) to run the use case.
+- Note: Use any of our [jupyter notebooks](https://github.com/dberga/iquaflow-qmr-sisr/blob/master/IQF-UseCase.ipynb) to run the use case.
 
 - The rest of code is distributed in distinct repos [IQUAFLOW framework](https://github.com/satellogic/iquaflow), [QMRNet EO Dataset Evaluation Use Case](https://github.com/dberga/iquaflow-qmr-eo) and [QMRNet's Loss for SR](https://github.com/dberga/iquaflow-qmr-loss).
 
