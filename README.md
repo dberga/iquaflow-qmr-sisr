@@ -1,4 +1,10 @@
-# iq-sisr-use-case
+# IQUAFLOW - Quality Metrics for Single Image Super Resolution
+
+Note: Use any of our [jupyter notebooks](https://github.com/dberga/iquaflow-qmr-sisr/blob/master/IQF-UseCase.ipynb) to run the use case.
+
+- The rest of code is distributed in distinct repos [IQUAFLOW framework](https://github.com/satellogic/iquaflow), [QMRNet EO Dataset Evaluation Use Case](https://github.com/dberga/iquaflow-qmr-eo) and [QMRNet's Loss for SR](https://github.com/dberga/iquaflow-qmr-loss).
+
+# SISR Algorithms 
 
 The Single Image Super Resolution (SISR) use case is build to compare the image quality between different SiSR solutions. A SiSR algorithm inputs one frame and outputs an image with greater resolution.
 These are the methods that are being compared in the use case:
@@ -52,3 +58,24 @@ ________________________________________________________________________________
         >`pip3 install torch==1.7.0+cu110 torchvision==0.8.1+cu110 -f https://download.pytorch.org/whl/torch_stable.html`.
    - (***)
         The dataset is downloaded with all the results of executing the dataset modifiers already generated. This allows the user to freely skip the `.execute` as well as the `apply_metric_per_run` which __take long time__. Optionally, you can remove the pre-executed records folder (`./mlruns `) for a fresh start.
+        
+Note: make sure to replace "YOUR_GIT_TOKEN" to your github access token, also in [Dockerfile](https://github.com/dberga/iquaflow-qmr-eo/blob/master/Dockerfile).
+
+# Cite
+
+If you use content of this repo, please cite:
+
+```
+@article{berga2022,
+  title={QMRNet: Quality Metric Regression for EO Image Quality Assessment and Super-Resolution},
+  author={Berga, David and Gallés, Pau and Takáts, Katalin and Mohedano, Eva and Riordan-Chen, Laura and Garcia-Moll, Clara and Vilaseca, David and Marín, Javier},
+  journal={arXiv preprint arXiv:2210.06618},
+  year={2022}
+}
+@article{galles2022,
+  title={IQUAFLOW: A NEW FRAMEWORK TO MEASURE IMAGE QUALITY},
+  author={Gallés, Pau and Takáts, Katalin and Hernández-Cabronero, Miguel and Berga, David and Pega, Luciano and Riordan-Chen, Laura and Garcia-Moll, Clara and Becker, Guillermo and Garriga, Adán and Bukva, Anica and Serra-Sagristà, Joan and Vilaseca, David and Marín, Javier},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2022}
+}
+```
