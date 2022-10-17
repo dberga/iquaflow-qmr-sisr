@@ -59,7 +59,7 @@ ________________________________________________________________________________
    - (***)
         The dataset is downloaded with all the results of executing the dataset modifiers already generated. This allows the user to freely skip the `.execute` as well as the `apply_metric_per_run` which __take long time__. Optionally, you can remove the pre-executed records folder (`./mlruns `) for a fresh start.
         
-Note: make sure to replace "YOUR_GIT_TOKEN" to your github access token, also in [Dockerfile](https://github.com/dberga/iquaflow-qmr-eo/blob/master/Dockerfile).
+Note: make sure to replace "YOUR_GIT_TOKEN" to your github access token, also in [Dockerfile](Dockerfile).
 
 # Cite
 
