@@ -3,7 +3,7 @@ Check [QMRNet's preprint](https://arxiv.org/abs/2210.06618) and [IQUAFLOW's prep
 
 # IQUAFLOW - Quality Metrics for Single Image Super Resolution
 
-- Note: Use any of our [jupyter notebooks](IQF-UseCase.ipynb) to run the use case.
+- Note: Use any of our [jupyter notebook](IQF-UseCase.ipynb) or [python code example with x3](IQF-UseCase-PREx3.py) to run the use case.
 
 - The rest of code is distributed in distinct repos [IQUAFLOW framework](https://github.com/satellogic/iquaflow), [QMRNet EO Dataset Evaluation Use Case](https://github.com/dberga/iquaflow-qmr-eo) and [QMRNet's Loss for SR](https://github.com/dberga/iquaflow-qmr-loss).
 
@@ -78,7 +78,7 @@ If you use content of this repo, please cite:
 @article{galles2022,
   title={IQUAFLOW: A NEW FRAMEWORK TO MEASURE IMAGE QUALITY},
   author={Gallés, Pau and Takáts, Katalin and Hernández-Cabronero, Miguel and Berga, David and Pega, Luciano and Riordan-Chen, Laura and Garcia-Moll, Clara and Becker, Guillermo and Garriga, Adán and Bukva, Anica and Serra-Sagristà, Joan and Vilaseca, David and Marín, Javier},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2210.13269},
   year={2022}
 }
 ```
